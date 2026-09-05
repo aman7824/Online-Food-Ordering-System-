@@ -1,4 +1,4 @@
-# 🍽️ Online Food Ordering System
+<img width="948" height="809" alt="8" src="https://github.com/user-attachments/assets/6709964a-feab-424d-97b1-651e78d901e7" /># 🍽️ Online Food Ordering System
 
 A simple and user-friendly Online Food Ordering System built with PHP, MySQL, HTML, CSS, and JavaScript.
 
@@ -289,21 +289,34 @@ Example:
 
 ### 🏠 Home Page
 
-![Home Page](screenshots/home.png)
+<img width="856" height="958" alt="1" src="https://github.com/user-attachments/assets/46274dcd-0700-4a58-b763-82842faeec4d" />
+
 
 ### 🍔 Food Menu
 
-![Food Menu](screenshots/food-menu.png)
+<img width="861" height="949" alt="4" src="https://github.com/user-attachments/assets/778ed112-c976-4fcd-bf6c-f6d4d9af2a93" />
+
 
 ### 🔐 Admin Login
 
-![Admin Login](screenshots/admin-login.png)
+<img width="265" height="209" alt="6" src="https://github.com/user-attachments/assets/df427ccf-f563-44db-b5c0-973bd495db47" />
 
-### 📊 Admin Dashboard
 
-![Admin Dashboard](screenshots/admin-dashboard.png)
+### 📊 Admin Category Report
 
-### 📦 Order Management
+<img width="905" height="584" alt="7" src="https://github.com/user-attachments/assets/161213d1-b687-41c5-af96-b98b5bc48a4d" />
+
+
+### Admin Food Record 
+
+<img width="948" height="809" alt="8" src="https://github.com/user-attachments/assets/6ff2821b-ab07-4dad-a129-28414f1512a5" />
+
+
+### Admin Order Record 
+
+<img width="948" height="362" alt="9" src="https://github.com/user-attachments/assets/821fd126-0fe1-4e82-bd0a-1b213660c15b" />
+
+
 
 ![Order Management](screenshots/order-management.png)
 You can create a folder:
