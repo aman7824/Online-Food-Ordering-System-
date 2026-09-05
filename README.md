@@ -1,262 +1,190 @@
-🍔 Online Food Ordering System
+### 📦 Order Status Tracking
 
-A simple and responsive Online Food Ordering System built using PHP and MySQL. This web-based application allows customers to browse food items, search for dishes, select quantities, and place orders online.
+Example statuses:
 
-The system also includes a powerful Admin Panel for managing food categories, menu items, customer orders, and administrator accounts.
+Pending
+   ↓
+Confirmed
+   ↓
+Preparing
+   ↓
+Out for Delivery
+   ↓
+Delivered
+### 🌓 Dark Mode
 
-📌 Project Overview
+Add a modern dark/light theme switcher.
 
-The Online Food Ordering System is designed for restaurants, cafes, eateries, and canteens that want to manage their food menu and customer orders digitally.
+### 📱 Mobile Application
 
-The project consists of two main sections:
+Develop Android/iOS applications using:
 
-👤 Customer Panel – Browse food categories, search food items, and place orders.
-🔐 Admin Panel – Manage categories, food items, orders, and administrator accounts.
-✨ Features
-👨‍💻 Admin Panel
-🔐 Secure Admin Login & Logout
-📊 Admin Dashboard
-📂 Category Management
-🍕 Food/Menu Management
-🖼️ Food Image Management
-📦 Order Management
-👥 Admin Account Management
-🔑 Update Admin Password
-🗑️ Delete Admin Accounts
-📋 View Customer Orders
-🛒 Customer Panel
-🏠 Responsive Landing Page
-📂 Browse Food Categories
-🍔 View Available Food Items
-🔎 Search Food Items
-➕ Select Food Quantity
-🛍️ Place Food Orders
-📱 Responsive User Interface
-🖼️ Screenshots
-🏠 Landing Page
+* Flutter
+* React Native
+* Native Android
 
-📂 Category Page
+---
 
-🍔 Foods Page
+# 🔒 Security Recommendations
 
-🛒 Order Form
+Before deploying this project to a production server:
 
-🔐 Admin Login
+* 🔑 Change the default admin username and password.
+* 🔐 Use strong administrator passwords.
+* 🛡️ Use prepared statements for database queries.
+* ✅ Validate all user input.
+* 🧹 Sanitize user input where appropriate.
+* 🔒 Protect administrative pages.
+* 🚫 Never expose database credentials.
+* 🚫 Do not upload sensitive configuration files.
+* 🔐 Store secrets in environment variables where possible.
+* 🌐 Use HTTPS on production.
+* 🐘 Keep PHP updated.
+* 🗄️ Keep MySQL updated.
+* ⚠️ Disable unnecessary PHP error messages on production.
+* 💾 Regularly back up the database.
+* 🔐 Implement proper session management.
+* 📁 Restrict dangerous file uploads.
+* 🚫 Do not commit passwords, API keys, or .env files to GitHub.
 
-📊 Admin Dashboard
+---
 
-📂 Admin Category Records
+# 🧪 Local Development
 
-🍕 Admin Food Records
+Recommended environment:
 
-📦 Admin Order Records
+Operating System : Windows / Linux / macOS
+Server            : Apache
+PHP               : 7.x / 8.x
+Database          : MySQL
+Database Tool     : phpMyAdmin
+Local Server      : XAMPP
+Browser            : Chrome / Firefox / Edge
+> PHP version compatibility may depend on the original project code. If you encounter deprecated-function or compatibility errors, check the PHP version required by the project.
 
-Note: Create a screenshots folder in the project root and place your screenshot images inside it using the filenames mentioned above.
+---
 
-🛠️ Technologies Used
-PHP
-MySQL
-HTML5
-CSS3
-JavaScript
-Bootstrap (if included in the project)
-XAMPP / WAMP
-📁 Project Structure
-Online-Food-Ordering-System/
-│
-├── admin/
-│   ├── dashboard
-│   ├── categories
-│   ├── foods
-│   ├── orders
-│   └── users
-│
-├── databasefiles/
-│   └── food_order.sql
-│
-├── screenshots/
-│   ├── landing-page.png
-│   ├── category-page.png
-│   ├── foods-page.png
-│   ├── order-form.png
-│   ├── admin-login.png
-│   ├── admin-dashboard.png
-│   ├── admin-category-records.png
-│   ├── admin-food-records.png
-│   └── admin-order-records.png
-│
-├── assets/
-├── index.php
-└── ...
+# 🐛 Troubleshooting
 
+## ❌ Database Connection Error
 
-The exact folder structure may vary depending on the downloaded source-code version.
+Check:
 
-⚙️ Installation & Setup
+Database Name
+Database Username
+Database Password
+MySQL Service
+Make sure MySQL is running in XAMPP.
 
-Follow these steps to run the project on your local machine.
+---
 
-1. Install XAMPP or WAMP
+## ❌ Page Not Found
 
-Install a local development server such as:
-
-XAMPP
-WAMP
-
-Make sure Apache and MySQL are available.
-
-2. Download the Project
-
-Download or clone this repository:
-
-git clone https://github.com/your-username/Online-Food-Ordering-System.git
-
-3. Move the Project
-
-For XAMPP, copy the project folder into:
+Make sure the project exists inside:
 
 C:\xampp\htdocs\
+Then verify the URL:
 
+http://localhost/Online-Food-Ordering-System/
+---
 
-For WAMP, copy the project folder into:
+## ❌ Admin Panel Not Opening
 
-C:\wamp\www\
+Check:
 
-4. Start Apache and MySQL
+http://localhost/Online-Food-Ordering-System/admin/
+Also verify that Apache is running.
 
-Open the XAMPP/WAMP control panel and start:
+---
 
-Apache
-MySQL
+## ❌ Images Not Displaying
 
-5. Create the Database
+Check:
 
-Open phpMyAdmin:
+* Image folder path
+* File permissions
+* Image filename
+* PHP upload configuration
+* Relative/absolute image paths
 
-http://localhost/phpmyadmin
+---
 
+# 📂 Database
 
-Create a new MySQL database using the database name required by the project.
-
-6. Import the SQL File
-
-Locate:
-
-databasefiles/food_order.sql
-
-
-Open phpMyAdmin → select your database → Import → choose food_order.sql → click Import.
-
-7. Configure Database Connection
-
-Check the project's database connection/configuration file and update the following values if required:
-
-$host = "localhost";
-$username = "root";
-$password = "";
-$database = "food_order";
-
-
-Use the database name specified by the SQL file/project configuration if it differs.
-
-🚀 Run the Project
-
-After completing the setup, open your browser.
-
-Customer Panel
-http://localhost/web/
-
-Admin Panel
-http://localhost/web/admin
-
-
-If you renamed the project folder, replace web with your actual folder name.
-
-🔐 Admin Login
-
-Use the administrator credentials provided with the project:
-
-Username: katojkalemba
-Password: Kalemba@2000
-
-
-Security Note: If you deploy this project online, change the default administrator password immediately.
-
-🗄️ Database
-
-The project uses MySQL for storing application data such as:
-
-Food categories
-Food/menu items
-Customer orders
-Administrator accounts
-Other application records
-
-The SQL database file is included in:
+SQL database file:
 
 databasefiles/food_order.sql
+Database:
 
-📱 Responsive Design
+food_order
+The database contains information related to:
 
-The application is designed to provide a user-friendly experience across different screen sizes, including:
+Categories
+Food Items
+Orders
+Administrators
+---
 
-💻 Desktop
-💻 Laptop
-📱 Mobile
-📟 Tablet
-🎯 Use Cases
+# 👨‍💻 Author
 
-This project can be used as a starting point for:
+## Ansari Aman
 
-🍽️ Restaurants
-☕ Cafes
-🥡 Food shops
-🏫 School/college canteens
-🍔 Small food businesses
-🎓 PHP/MySQL academic projects
-🔮 Future Improvements
+BCA Graduate | MCA Final Year
+PHP | MySQL | Python | JavaScript | Web Development
 
-Some features that can be added in future versions:
+---
 
-💳 Online Payment Integration
-📧 Email Order Notifications
-📱 SMS Notifications
-👤 Customer Registration & Login
-🛒 Shopping Cart
-📍 Delivery Address & Tracking
-⭐ Food Reviews & Ratings
-📊 Advanced Sales Reports
-🔔 Real-Time Order Notifications
-🧾 Printable Order Receipts
-⚠️ Security
+# ⭐ Support
 
-If you are using this project for learning or development:
+If you find this project useful, please consider giving this repository a ⭐ on GitHub.
 
-Change the default admin credentials.
-Use prepared statements for database queries.
-Validate and sanitize user input.
-Restrict access to administrative pages.
-Do not expose database credentials publicly.
-Keep PHP and server software updated.
-📚 Learning Purpose
+Your support is appreciated and helps encourage further development.
 
-This project is useful for learning and understanding:
+---
 
-PHP CRUD operations
-MySQL database integration
-User/admin panels
-Food/menu management
-Order management
-PHP form handling
-Basic web application architecture
-👨‍💻 Author
+# 📄 License
 
-Ansari Aman
+This project is intended for educational and development purposes.
 
-⭐ Support
+Please check the original project's license and terms before redistributing or using this project commercially.
 
-If you find this project useful, consider giving the repository a ⭐ on GitHub.
+---
 
-📄 License
+# 🤝 Contributing
 
-This project is intended for educational and development purposes. Please check the original source/project license before redistributing or using it commercially.
+Contributions are welcome!
+
+If you would like to improve this project:
+
+### 1. Fork the repository
+
+git fork YOUR_GITHUB_REPOSITORY_URL
+### 2. Create a new branch
+
+git checkout -b feature/new-feature
+### 3. Make your changes
+
+### 4. Commit your changes
+
+git add .
+git commit -m "Add new feature"
+### 5. Push the branch
+
+git push origin feature/new-feature
+### 6. Create a Pull Request
+
+---
+
+# 📌 Project Status
+
+🟢 Active Development
+
+This project can be further improved by adding modern features such as online payments, customer authentication, shopping cart functionality, delivery tracking, reviews, analytics, and mobile application support.
+
+---
+
+## 🍽️ Online Food Ordering System
+
+Built with ❤️ using PHP & MySQL
+
+⭐ Star this repository if you find it useful!
