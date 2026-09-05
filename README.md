@@ -318,11 +318,6 @@ Example:
 
 
 
-![Order Management](screenshots/order-management.png)
-You can create a folder:
-
-screenshots/
-and store your project screenshots inside it.
 
 ---
 
