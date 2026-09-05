@@ -1,0 +1,57 @@
+.add_admin{
+    text-align: center;
+    text-transform: capitalize;
+    color: green;
+    margin-top: -500px;
+    position: absolute;
+    transition: all 1s;
+    font-size: 1rem;
+}
+.add_admin.active{
+    margin-top: 0px;;
+}
+.delete_admin{
+    text-align: center;
+    text-transform: capitalize;
+    color: green;
+    margin-top: -500px;
+    position: absolute;
+    transition: all 1s;
+    font-size: 1rem;
+}
+.delete_admin.active{
+    margin-top: 0px;;
+}
+.update_admin{
+    text-align: center;
+    text-transform: capitalize;
+    color: green;
+    margin-top: -500px;
+    position: absolute;
+    transition: all 1s;
+    font-size: 1rem;
+}
+.update_admin.active{
+    margin-top: 0px;;
+}
+.update_password{
+    text-align: center;
+    text-transform: capitalize;
+    color: green;
+    margin-top: -500px;
+    position: absolute;
+    transition: all 1s;
+    font-size: 1rem;
+}
+.update_password.active{
+    margin-top: 0px;;
+}
+
+section{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,17 @@
+section{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form table td {
+    padding-bottom: 10px;
+}
+form table input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #000;
+}

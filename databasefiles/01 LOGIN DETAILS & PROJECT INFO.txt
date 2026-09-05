@@ -1,0 +1,11 @@
+**Database Name: food_order**
+
+**Developed by katojkalemba**
+
+**Recommended PHP Version 5.6.3 and 7.4.12**
+
+
+**Login Details**
+
+Username: katojkalemba
+Password: Kalemba@2000
