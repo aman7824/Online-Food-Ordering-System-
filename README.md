@@ -1,4 +1,4 @@
-<img width="948" height="809" alt="8" src="https://github.com/user-attachments/assets/6709964a-feab-424d-97b1-651e78d901e7" /># 🍽️ Online Food Ordering System
+# 🍽️ Online Food Ordering System
 
 A simple and user-friendly Online Food Ordering System built with PHP, MySQL, HTML, CSS, and JavaScript.
 
